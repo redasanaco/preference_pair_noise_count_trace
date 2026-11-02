@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "redasanaco-agentapp_jd074"
+name = "redasanaco-preference_pair_noise_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出Agent 应用开发工程师·偏好数据的成对噪声上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://redasanaco.github.io"
-Repository = "https://github.com/redasanaco/agentapp_jd074"
-Issues = "https://github.com/redasanaco/agentapp_jd074/issues"
+Repository = "https://github.com/redasanaco/preference_pair_noise_count_trace"
+Issues = "https://github.com/redasanaco/preference_pair_noise_count_trace/issues"
 
 [project.scripts]
-agentapp_jd074 = "agentapp_jd074:main"
+preference_pair_noise_count_trace = "preference_pair_noise_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["agentapp_jd074"]
+py-modules = ["preference_pair_noise_count_trace"]
